@@ -32,10 +32,6 @@ brewInstall "RUBY" "ruby"
 brewInstall "NVM" "nvm"
 brewInstall "NPM" "npm"
 
-# COMMAND LINE TOOLS
-# brewInstall "FTP-CLI" "inetutils"
-# brewInstall "JQ-JSON-PARSER" "jq"
-
 # REACT NATIVE DEVLOPMENT
 # brewInstall "watchman" "watchman"
 # brewTap "AdoptOpenJDK/openjdk"
@@ -54,7 +50,7 @@ caskInstall "ALFRED" "alfred"
 # caskInstall "FRANZ" "franz"
 # caskInstall "SKYPE" "skype"
 # caskInstall "ZOOM" "zoom"
-caskInstall "SPOTIFY" "spotify"
+# caskInstall "SPOTIFY" "spotify"
 caskInstall "POSTMAN" "postman"
 caskInstall "DBEAVER" "dbeaver-community"
 caskInstall "KEEPING-YOU-AWAKE" "keepingyouawake"

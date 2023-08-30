@@ -15,8 +15,8 @@ export ZSH=~/.oh-my-zsh
 ZSH_THEME="gallois"
 
 # GIT
-export MAIL=linhardt.michael@gmail.com
-export GIT_NAME="Michael Linhardt"
+export MAIL=thinh.quocc@gmail.com
+export GIT_NAME="ThinhMaiQuoc"
 
 # SYSTEM
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/homebrew/bin"

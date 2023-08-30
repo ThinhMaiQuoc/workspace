@@ -4,24 +4,15 @@ dstore () { sh $WORKSPACE_PATH/sh/sys/dstore.sh }
 
 # NAVIGATION
 workspace () { cd $WORKSPACE_PATH/$@ }
-ec2 () { ssh -i ~/gdrive/AWS/ec2-virginia-prestoyou.pem ubuntu@ec2-54-82-197-76.compute-1.amazonaws.com }
-ios () { cd ~/dev/presto/app_presto && npm run ios }
-ios6 () { cd ~/dev/presto/app_presto && npm run ios6 }
-backend () { cd ~/dev/presto/backend_presto/$@ }
-app () { cd ~/dev/presto/app_presto/$@ }
-apns () { cd ~/dev/presto/app_presto && xcrun simctl push booted com.prestoconnect.app apns.payload.json }
-website () { cd ~/dev/presto/website_presto/$@ }
-www () { cd /var/www/html }
-dev () { cd ~/dev/$@ }
+# headlessbeauty () { cd ~/dev/presto/backend_presto/$@ }
 
 # CONFIG
 vimrc () { vim $VIM_CONF/vimrc }
-vimrc_remap () { vim $VIM_CONF/vimrc_remap }
-vimrc_plugvim () { vim $VIM_CONF/vimrc_plugvim }
 zshrc () { vim $ZSH_CONF/zshrc && source ~/.zshrc }
 
 # VSCODE
 alias vscode="open -a Visual\ Studio\ Code $@"
+alias code="open -a Visual\ Studio\ Code $@"
 alias vsc="open -a Visual\ Studio\ Code $@"
 
 # GIT
